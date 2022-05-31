@@ -1,0 +1,74 @@
+@media (min-width: 481px ) {
+    .botonnegro{
+   
+        font-size: 40px;
+      
+    }
+
+    .seccionBoton{
+        margin-left: 30%;
+        width: 40%;
+    }
+
+    .tituloConFotografia h1 {
+        font-size: 60px;
+    }
+
+    .espacios h2{
+        font-size: 65px;
+    }
+
+    .imagenMuestra{
+        height: 600px;
+    }
+
+    .muestraImagen {
+   
+        width: 400px;
+        height: 300px;
+    
+    }
+
+    .btnNegro {
+        padding: 5%;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .botonnegro{
+    
+        font-size: 20px;
+        padding-left: 10%;
+    }
+
+    .seccionBoton{
+
+        margin-left: 15%;
+        width: 70%;
+    }
+    .tituloConFotografia h1 {
+        font-size: 40px;
+    }
+
+    .espacios h2{
+        font-size: 40px;
+    }
+
+    .imagenMuestra{
+        height: 500px;
+    }
+
+    .muestraImagen {
+   
+        width: 80%;
+        height: 200px;
+    
+    }
+    .btnNegro {
+        padding: 5%;
+        font-size: 20px;
+    }
+
+}
