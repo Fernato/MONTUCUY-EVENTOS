@@ -19,8 +19,8 @@ app.use(cors());
 
 app.use(express.static('public'));
 //app.use(express.static(`${__dirname}/storage/images`))
-app.use(express.static(`/storage/images`))
-//app.use(('public', express.static(`${__dirname}/storage/images`)));
+//app.use(express.static(`/storage/images`))
+app.use(('public', express.static(`${__dirname}/storage/images`)));
 
 
 // Lectura y parseo del body
