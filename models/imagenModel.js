@@ -37,7 +37,7 @@ imagenSchema.methods.setImagen = function setImagen (filename) {
     const port = process.env.PORT || 5000;
    // this.url = `http://localhost:${port}/${filename}`
    // this.url = `${host}:${port}/${filename}`
-    this.url = `${host}:public/${filename}`
+    this.url = `${host}/public/${filename}`
    // this.url = `https://eventos-montucuy.herokuapp.com/${filename}`
 
 }
