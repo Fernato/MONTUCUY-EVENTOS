@@ -32,12 +32,14 @@ const imagenSchema = Schema({
 
 imagenSchema.methods.setImagen = function setImagen (filename) {
 
-   //const host = process.env.PUBLIC_URL || 'http://localhost'
-   const host = process.env.PUBLIC_URL || 'https://eventos-montucuy.herokuapp.com'
+   const host = process.env.PUBLIC_URL || 'http://localhost'
+   //const host = process.env.PUBLIC_URL || 'https://eventos-montucuy.herokuapp.com'
     const port = process.env.PORT || 5000;
-   // this.url = `http://localhost:${port}/${filename}`
+    this.url = `http://localhost:${port}/${filename}`
+
+
    // this.url = `${host}:${port}/${filename}`
-    this.url = `${host}/public/${filename}`
+   // this.url = `${host}/storage/images/${filename}`
    // this.url = `https://eventos-montucuy.herokuapp.com/${filename}`
 
 }
