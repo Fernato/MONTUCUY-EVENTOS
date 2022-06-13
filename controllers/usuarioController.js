@@ -3,6 +3,8 @@ const bcrypt = require('bcryptjs/dist/bcrypt');
 
 const usuarioModel = require('../models/usuarioModel');
 
+
+
 const getUsuarios = async (req, res = response) => {
 
     try {
