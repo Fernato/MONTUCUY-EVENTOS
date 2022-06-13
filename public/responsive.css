@@ -19,11 +19,12 @@
     }
 
     .imagenMuestra{
-        height: 600px;
+        
+        height: 550px;
     }
 
     .muestraImagen {
-   
+        
         width: 400px;
         height: 300px;
     
@@ -57,12 +58,12 @@
     }
 
     .imagenMuestra{
-        height: 500px;
+        height: 430px;
     }
 
     .muestraImagen {
    
-        width: 80%;
+        width: 100%;
         height: 200px;
     
     }

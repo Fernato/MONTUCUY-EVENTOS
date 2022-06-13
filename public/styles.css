@@ -36,6 +36,17 @@ input[type=number]::-webkit-outer-spin-button {
     background-color: #FDEB1B ;
 }
 
+.contenidoFormulario {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    height: 860px;
+    
+    text-align: center;
+    color: black;
+    background-color: #FDEB1B ;
+}
+
 .card{
     padding-top: 15px;
 }
